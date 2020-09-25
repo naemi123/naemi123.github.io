@@ -1,0 +1,194 @@
+body{
+    margin: 0%;
+}
+#develop, #program{
+    background-color: rgb(255, 51, 51);
+}
+
+#profile{
+    float:left;
+    width: 6%;
+    padding-bottom: 1%;
+    border-radius: 50%;
+}
+
+.pic1{
+    margin-right: 3em;
+    margin-left: 1em;
+    border-radius: 15px;
+}
+
+.pic2{
+    margin-right: 3em;
+    margin-left: 1em;
+
+}
+
+.pic3{
+    
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.head span{
+    text-align: center;
+    color: white;
+    padding-left: 37%;
+    margin-top: 2%;
+    font-family: 'Pacifico', cursive;
+    font-size: 200%;
+}
+
+.head{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: -webkit-linear-gradient(top, rgb(41, 43, 43) 0%, rgb(76, 78, 78) 100%);
+    background: -ms-linear-gradient(top, rgb(41, 43, 43) 0%, rgb(76, 78, 78) 100%);
+    box-shadow: 5px  5px 5px #888888;
+}
+
+.aboutme {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: white;
+    margin-top: 4%;
+    box-shadow: 0px 1px 3px 3px #b8b8b8;
+}
+
+.aboutme span,p {
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    
+}
+
+.aboutme p{
+    padding: 2%;
+}
+
+.link{
+    float: right;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+.link a{
+    padding: 10px;
+    padding-bottom: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.menu li a{
+    font-size: larger;
+    margin:20px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(45, 48, 48);
+    border-radius: 15px;
+    
+}
+
+li,.menu, .link a{
+    list-style-type: none;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.menu ul{
+    padding-top: 1em;
+}
+
+.goal p {
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin: 5%;
+}
+
+.skills{
+    margin-left: 5%;
+    margin-right: 5%;
+    background: white;
+    margin-top: 5%;
+    padding: 2% 2% 2% 0;
+    text-align: center;
+}
+
+.skills div{
+    display: inline-block;
+    width: 30%;
+    padding: 20px 20px 50px 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.academic{
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.academic span{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding-left: 1em;
+    margin: 6%;
+    opacity: 0.9;
+    font-size: larger;
+}
+
+#big{
+    font-size: x-large;
+}
+
+#four,#one,#two,#three,#five,#six,#seven{
+    border-style: dotted;
+    border-width: 5px;
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    font-size: large;
+}
+
+#two{
+    border-color: teal;
+    top: 30%;
+    left: 65%;
+}
+#three{
+    border-color: orange;
+    top: 30%;
+    right:65%;
+}
+#one {
+    border-color: blue;
+    bottom: 70px;
+    left: 65%;
+}
+
+#four{
+    border-color: red;
+    right: 65%;
+    bottom: 70px;
+}
+#five{
+    border-color: rgb(202, 29, 173);
+    left: 37%;
+    bottom: 20px;
+}
+#six{
+    border-color: rgb(85, 20, 122);
+    top: 60%;
+    left: 70%;
+}
+#seven{
+    border-color: brown;
+    top: 60%;
+    right:70%;
+}
